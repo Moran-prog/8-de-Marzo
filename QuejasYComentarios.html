@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>8 de Marzo</title>
+	<meta charset="utf-8">
+</head>
+<body bgcolor="#EBEBEB ">
+	<center>
+<form action="mailto:mp1242769@gmail.com" method="Post">
+			<center><h3>Datos personales:</h3></center>
+			Nombre:<br><input type="text" tabindex="1" required name="nombre" size="15" maxlength="15"><br><br>
+			Apellidos:<br><input type="text" tabindex="2" required name="apellidos" size="20" maxlength="20"><br><br>
+			Correo:<br><input type="text" tabindex="3" required name="correo" placeholder="example@gmail.com" size="25" maxlength="40"> <br><br>
+			Contraseña:<br><input type="password" tabindex="4" required name="contraseña" placeholder="contraseña..." size="25" maxlength="40"><br><br>
+			Edad:<br><input type="text" required tabindex="5" name="Edad" placeholder="edad..." size="4" minlength="1" maxlength="3"><br><br>
+			<textarea required tabindex="6" placeholder="Inserta comentarios y/o quejas"cols="15" rows="3" maxlength="50"></textarea><br><br>
+			¿Deseas enviar alguna imagen que creas que servira para agregar a la pagina?<br>
+			<input type="checkbox" id="condicion" onclick="deshabilita()"/><br>
+			<input type="file" id="foto" disabled accept="image/png, image/jpeg"></imput><br>
+			<script>
+				function deshabilita()
+				{
+					if(document.getElementById('condicion').checked)
+					{
+						document.getElementById('foto').disabled=false;
+					}
+					else
+					{
+						document.getElementById('foto').disabled=true;
+					}
+				}
+			</script>
+			ENVIAR A:<br><br>
+			Nombre:<br><input type="text" readonly name="nombre" value="Maria" size="15" maxlength="15"><br><br>
+			Apellidos:<br><input type="text" readonly name="apellido" value="Moran Perez" size="20" maxlength="20"><br><br>
+			Correo:<br><input type="text" readonly name="correo" value="mp1242769@gmail.com" size="25" maxlength="40"> <br><br>
+			Contraseña:<br><input type="password" value="mp1212424276" readonly name="contraseña" size="25" maxlength="40"><br><br>
+			<textarea readonly> Gracias por tu opinion...</textarea><br><br>
+			<input type="Submit" tabindex="7" name="ENVIAR">
+</form>
+    </center>
+</body>
+</html>

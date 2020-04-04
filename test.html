@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>8 de Marzo</title>
+</head>
+<body bgcolor="#C8FFFD">
+<h1>TEST | Cinco preguntas sobre feminismo y el 8M</h1>
+<h3>Pon a prueba tus conocimientos sobre el Día Internacional de la Mujer</h3><br>
+<form>
+	1.-¿Qué es el feminismo?<br><br>
+<button type="button" name="b1" onclick="error1(b1,b2,b3,div1)">Lo contrario al machismo</button><br><br>
+<button type="button" name="b2" onclick="correcto1(b2,b1,b3,div1)">Doctrina y movimiento social histórico que busca la igualdad de derechos entre mujeres y hombres</button><br><br>
+<button type="button" name="b3" onclick="error2(b3,b1,b2,div1)"> Movimiento social que busca la superioridad de las mujeres frente al patriarcado</button><br><br>
+
+<div id="div1" style="visibility:hidden;"> La Real Academia Española (RAE) define el feminismo como “el principio de igualdad de derechos de la mujer y el hombre” así como “el movimiento que lucha por la realización efectiva en todos los órdenes del feminismo”. Según Mariela Fargas Peñarrocha, profesora Titular de Historia Moderna de la Universidad de Barcelona, el concepto engloba una serie de movimientos cuyo origen es “tan lejano como podamos encontrar luchas de mujeres, primero individuales en el seno de las ilustradas tertulias sobre la razón en el siglo XVIII, más tarde de grupo como el sufragismo”. </div><br><br>
+
+2.-¿En qué sentido se utiliza la palabra patriarcado en las reivindicaciones feministas?<br><br>
+<button type="button" name="b4" onclick="error3(b4,b5,div2)">Para desprestigiar la posición de los hombres en la sociedad</button><br><br>
+<button type="button" name="b5" onclick="correcto2(b5,b4,div2)">Para poner de manifiesto el dominio masculino sobre las mujeres de la sociedad en general</button><br><br>
+
+<div id="div2" style="visibility:hidden;"> Según la RAE, es un término empleado por la sociología para referirse a una “organización social primitiva en que la autoridad es ejercida por un varón jefe de cada familia, extendiéndose este poder a los parientes aun lejanos de un mismolinaje”. Según la historiadora Gerda Lener, que se ha ocupado de estudiar las relaciones entre hombres y mujeres desde el año 6.000 antes de Cristo hasta el #MeToo. “El patriarcado es la manifestación e institucionalización del dominio masculino sobre las mujeres y niños de la familia, y la ampliación de ese dominio sobre las mujeres de la sociedad en general”. </div><br><br>
+
+3.-¿Qué significa el término "techo de cristal"?<br><br>
+<button type="button" name="b6" onclick="correcto3(b6,b7,div3)">Limitaciones o barrera invisible que aparece en la carrera laboral de las mujeres en su ascenso hacia puestos ejecutivos o gerenciales</button><br><br>
+<button type="button" name="b7" onclick="error4(b7,b6,div3)">La brecha salarial entre hombres y mujeres</button><br><br>
+
+<div id="div3" style="visibility:hidden;"> La expresión “glass ceiling barriers” (techo de cristal en castellano) se atribuye a Marilyn Londen, jefa de personal en la New York Telephone Co. La utilizó en la Women's Action Alliance Conference de Nueva York el 24 de mayo de 1978 para argumentar que había una serie de impedimentos a las aspiraciones y oportunidades de las mujeres. Factores socioculturales como la percepción positiva del liderazgo de los hombres o la penalización por ser madre, son algunas de estas barreras invisibles que permanecen a día de hoy en el mercado laboral y contra los que lucha el feminismo. </div><br><br>
+
+4.-¿Desde cuándo y por qué se celebra el Día Internacional de la Mujer?<br><br>
+<button type="button" name="b8" onclick="correcto4(b8,b9,div4)">Fue declarado en 1975 por las Naciones Unidas, pero tiene su origen en manifestaciones organizadas por mujeres a mediados del siglo XIX</button><br><br>
+<button type="button" name="b9" onclick="error5(b9,b8,div4)">Se celebra desde 2018, con motivo del movimiento 'Me too'</button><br><br>
+
+<div id="div4" style="visibility:hidden;"> El Día Internacional de la Mujer del 8 de marzo fue declarado por las Naciones Unidas en 1975. Dos años más tarde se convirtió en el Día Internacional de la Mujer y la Paz Internacional. En Estados Unidos se celebra oficialmente tan solo desde 1994. Su origen data de diferentes fechas según los países. La explicación más verosímil de por qué se celebra el 8 de marzo se remonta a mediados del siglo XIX, en plena revolución industrial. </div><br><br>
+
+5.-¿Qué es el movimiento Me too?<br><br>
+<button type="button" name="b10" onclick="correcto5(b10,b11,div5)">Un movimiento que resurgió en las #FB5555es sociales en 2017, tras el escándalo de abusos sexuales cometidos por el productor de cine Harvey Weinstein</button><br><br>
+<button type="button" name="b11" onclick="error6(b11,b10,div5)">Nace a mediados de los 70, cuando un grupo de mujeres estadounidenses denunciaron en televisión abusos cometidos por Bill Cosby</button><br><br>
+
+<div id="div5" style="visibility:hidden;"> Diez días después de que The New York Times publicase un artículo en el que desvelaba cómo el productor de Hollywood Harvey Weinstein había “comprado durante décadas el silencio de mujeres que le acusaban de abuso sexual”, la actriz Alyssa Milano publicó un tuit en el que pedía que todas las mujeres que hubieran sufrido algún tipo de acoso sexual respondieran diciendo me too (yo también) “para dar idea de la magnitud del problema”. Se viralizó y ahí empezó una revolución que desenmascaró a otros personajes famosos como Bill Cosby o Kevin Spacey, entre otros. Pero el origen real de este movimiento se remonta a 1996, cuando la activista Tarana Burke escuchó el testimonio de abuso de una niña por parte de un familiar y no pudo hacerle frente. Entonces comenzó a gestarse el Me too Movement (Movimiento yo también), centrado en mujeres jóvenes que han sido víctimas de abuso, agresión o explotación sexual. </div><br>
+
+<script type="text/javascript">
+	var b1=document.querySelector('b1');
+	var b2=document.querySelector('b2');
+	var b3=document.querySelector('b3');
+	var b4=document.querySelector('b4');
+	var b5=document.querySelector('b5');
+	var b6=document.querySelector('b6');
+	var b7=document.querySelector('b7');
+	var b8=document.querySelector('b8');
+	var b9=document.querySelector('b9');
+	var b10=document.querySelector('b10');
+	var b11=document.querySelector('b11');
+	var div1=document.querySelector("#div1");
+	var div2=document.querySelector("#div2");
+	var div3=document.querySelector("#div3");
+	var div4=document.querySelector("#div4");
+	var div5=document.querySelector("#div5");
+	function error1(b1,b2,b3,div1)
+	{
+		b1.style.background='#FB5555';
+		b1.disabled=true;
+		b2.disabled=true;
+		b3.disabled=true;
+		div1.style.visibility='visible';
+	}
+	function correcto1(b2,b1,b3,div1)
+	{
+		b2.style.background='#9DFD92';
+		b1.disabled=true;
+		b2.disabled=true;
+		b3.disabled=true;
+		div1.style.visibility='visible';
+	}
+	function error2(b3,b2,b1,div1)
+	{
+		b3.style.background='#FB5555';
+		b1.disabled=true;
+		b2.disabled=true;
+		b3.disabled=true;
+		div1.style.visibility='visible';
+	}
+	function error3(b4,b5,div2)
+	{
+		b4.style.background='#FB5555';
+		b4.disabled=true;
+		b5.disabled=true;
+		div2.style.visibility='visible';
+	}
+	function correcto2(b5,b4,div2)
+	{
+		b5.style.background='#9DFD92';
+		b4.disabled=true;
+		b5.disabled=true;
+		div2.style.visibility='visible';
+	}
+	function correcto3(b6,b7,div3)
+	{
+		b6.style.background='#9DFD92';
+		b6.disabled=true;
+		b7.disabled=true;
+		div3.style.visibility='visible';
+	}
+	function error4(b7,b6,div3)
+	{
+		b7.style.background='#FB5555';
+		b6.disabled=true;
+		b7.disabled=true;
+		div3.style.visibility='visible';
+	}
+	function correcto4(b8,b9,div4)
+	{
+		b8.style.background='#9DFD92';
+		b8.disabled=true;
+		b9.disabled=true;
+		div4.style.visibility='visible';
+	}
+	function error5(b9,b8,div4)
+	{
+		b9.style.background='#FB5555';
+		b8.disabled=true;
+		b9.disabled=true;
+		div4.style.visibility='visible';
+	}
+	function correcto5(b10,b11,div5)
+	{
+		b10.style.background='#9DFD92';
+		b10.disabled=true;
+		b11.disabled=true;
+		div5.style.visibility='visible';
+	}
+	function error6(b11,b10,div5)
+	{
+		b11.style.background='#FB5555';
+		b10.disabled=true;
+		b11.disabled=true;
+		div5.style.visibility='visible';
+	}
+</script>
+</form>
+</body>
+</html>
